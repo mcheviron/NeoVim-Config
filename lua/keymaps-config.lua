@@ -21,9 +21,9 @@ vim.g.maplocalleader = " "
 -- Normal --
 -- Better window navigation
 keymap("n", "[[", "<C-w>h", opts)
+keymap("n", "]]", "<C-w>l", opts)
 keymap("n", "<C-j>", "<C-w>j", opts)
 keymap("n", "<C-k>", "<C-w>k", opts)
-keymap("n", "]]", "<C-w>l", opts)
 
 -- The old way of having a file explorer (netrw). Use NvimTree instead
   -- keymap("n", "<leader>e", ":Lex 30<cr>", opts)
